@@ -38,7 +38,10 @@ background: "linear-gradient(90deg, rgba(255,221,221,0.8127626050420168) 1%, rgb
                         </Stack>
                      </Box>
                 </Stack>
-
+                <Stack  mt={5}flexDirection={'row'} justifyContent={'space-between'} flexWrap={'wrap'}>
+                    <Typography>*2023 | Send me messaj | muradb356@email.com</Typography>
+                    <Typography>By The SahMurad</Typography>
+                </Stack>
             </Container>   
 </Box>
  

@@ -1,39 +1,35 @@
-import { Container, Grid, Stack, Typography , Box, Button, TextField} from "@mui/material"
+import { Container, Grid, Stack, Typography , Box, Button} from "@mui/material"
 import PageContainer from "../Page/PageContainer"
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import { Height, Padding } from "@mui/icons-material";
+
 
 const Elaqe =()=>{
+
     return(
-        <>
-<PageContainer>
+        <><PageContainer>
     <Box py={5}>
         <Container >
-        <Stack flexDirection={'row'} justifyContent={{lg:'space-between' , md:'center', xs:'center'}}  alignItems={'center'} flexWrap={'wrap'} gap={10}
+        <Stack flexDirection={'row'} justifyContent={{lg:'space-between' , md:'center', xs:'center'}}  alignItems={'center'} flexWrap={'wrap'} gap={10} >
 
-        >
 
            <Box width={'500px'}>
             <Typography fontWeight={'500'} color={'#596C72' } component={'h3'} variant="h4">Bizə yazın!</Typography>
             <Stack flexDirection={'row'} py={2} gap={2}>
-                <input type="text" placeholder="Ad ,Soyad" />
-                <input type="email" placeholder="E-mail" />
+                <input type="text" placeholder="Ad ,Soyad"  />
+                <input type="email" placeholder="E-mail"/>
             </Stack>
             <Stack flexDirection={'row'} gap={2}>
-                <input type="text" placeholder="Sirketin adi" />
-                <input type="number" placeholder="Telefon" />
+                <input type="text" placeholder="Sirketin adi"  />
+                <input type="number" placeholder="Telefon"/>
             </Stack>
             
             <Box my={2}>
                 <Box my={2}> 
-                    <textarea rows={4} required placeholder="Mesaj" ></textarea>
+                    <textarea rows={4} required placeholder="Mesaj"  ></textarea>
                 </Box>
-            <Button fullWidth={'100%'} sx={{
-                backgroundColor:'#FFC01F'
-                
-            }} variant="contained">Gonder</Button>
+                    <Button fullWidth="100%" variant="contained" >Gondermek</Button>
             </Box>
            </Box>
           
@@ -70,4 +66,5 @@ const Elaqe =()=>{
         </>
     )
 }
+
 export default Elaqe

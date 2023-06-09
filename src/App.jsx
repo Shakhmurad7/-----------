@@ -1,6 +1,6 @@
 
 import { Route, Routes } from 'react-router'
-
+  
 import Elaqe from './NavbarinMetodlari/Elaqe'
 import EsasSehve from './NavbarinMetodlari/EsasSehve'
 import Haqqimizda from './NavbarinMetodlari/Haqqimizda'
