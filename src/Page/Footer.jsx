@@ -33,7 +33,7 @@ background: "linear-gradient(90deg, rgba(255,221,221,0.8127626050420168) 1%, rgb
                         <Typography>Qrafik (iş saatlarımız): B.e - Ş. 10:00 - 19:00</Typography>
                         <Stack flexDirection={'row'} gap={3} py={1}>
                             <TwitterIcon/>
-                            <InstagramIcon/>
+                           <a href="https://www.instagram.com/_shakhmurad_/"><InstagramIcon/></a>   
                             <FacebookIcon/>
                         </Stack>
                      </Box>

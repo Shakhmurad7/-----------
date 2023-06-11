@@ -19,7 +19,7 @@ const Header =()=>{
                     cursor:`pointer`
                 }}>
                     <TwitterIcon/>
-                    <InstagramIcon/>
+                    <a href="https://www.instagram.com/_shakhmurad_/"><InstagramIcon/></a>
                     <FacebookIcon/>
                 </Stack>
             </Stack>

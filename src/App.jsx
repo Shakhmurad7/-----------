@@ -9,6 +9,7 @@ import IcareSertleri from './NavbarinMetodlari/IcareSertleri'
 import Blog from './NavbarinMetodlari/Blog'
 
 
+
 function App() {  
   return (
    <>
