@@ -9,8 +9,7 @@ const Elaqe =()=>{
 
     return(
         <><PageContainer>
-    <Box py={5}>
-        <Container >
+        <Container sx={{mt:'40px' , mb:'40px'}} >
         <Stack flexDirection={'row'} justifyContent={{lg:'space-between' , md:'center', xs:'center'}}  alignItems={'center'} flexWrap={'wrap'} gap={10} >
 
 
@@ -52,16 +51,12 @@ const Elaqe =()=>{
                             <TwitterIcon/>
                             <InstagramIcon/>
                             <FacebookIcon/>
-                        </Stack>
-                            
+                        </Stack>    
                     </Box>
                 </Stack>
-            
-        </Box>
-            
+        </Box> 
         </Stack>
     </Container>
-</Box>
 </PageContainer>
         </>
     )

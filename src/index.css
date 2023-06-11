@@ -2,6 +2,10 @@ body{
     margin: 0;
 }
 
+a{
+    color:black
+}
+
 .Navbar a{
     color: black;
     text-decoration: none;
@@ -96,4 +100,26 @@ textarea{
 .Carusel{
     width: 100%;
     gap: 20px;
+}
+.openimg{
+    border-radius: 10px;
+    background-color: beige;
+    border: 1px solid ;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.openimge{
+
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+    display: flex;
+
+
 }
